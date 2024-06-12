@@ -176,7 +176,7 @@ PortalPopup.propTypes = {
   right: PropTypes.number,
   top: PropTypes.number,
   bottom: PropTypes.number,
-  relativeLayerRef: PropTypes.shape({ current: PropTypes.instanceOf(Element) }),
+  relativeLayerRef: PropTypes.shape({ current: PropTypes.instanceOf }),
 };
 
 export default PortalPopup;
